@@ -1,10 +1,10 @@
-num=int(input())
+n=int(input())
 lst=list(map(int,input().split()))
 m=int(input())
-count=0
+comp=0
 if m in lst:
-    count+=1
-if count==1:
+    comp+=1
+if comp==1:
     print("True")
 else:
     print("False")
