@@ -1,11 +1,12 @@
-n=int(input())
+p=int(input())
 q=list(map(int,input().split()))
 o=[]
-l=[]
-for i in q:
-    if i%2!=0:
-        o.append(i)
-for x in o:
-    if x not in l:
-        l.append(x)
-print(len(l))
+i=[]
+for r in q:
+    if r not in o:
+        o.append(r)
+for y in o:
+    if y%2!=0:
+        i.append(y)
+print(len(i))
+    
